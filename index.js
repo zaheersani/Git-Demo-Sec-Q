@@ -24,7 +24,7 @@ app.get('/todos', (req, res) => {
 
 app.post('/user', (req, res) => {
     console.log(req.body)
-    res.send('ToDo Items')
+    res.send('ToDo Items received')
 })
 
 app.listen(port, () => {
